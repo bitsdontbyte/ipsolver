@@ -1,0 +1,19 @@
+name,caption,is_dynamic,type
+problem1,***************Problem ****************,,String
+q1,Economic lot size,,
+b1,Maximum backorder level,,
+imax1,Maximum Inventory level,,
+aic1,Average inventory cost per unit of time,,
+problem2,***************Problem ****************,,String
+qb,Economic lot size,,
+bb,Maximum backorder level,,
+imaxb,Maximum Inventory level,,
+aicb,Average inventory cost per unit of time,,
+problem3,***************Problem ****************,,String
+q2,Economic lot size,,
+b2,Maximum backorder level,,
+avgin,Internal average inventory per unit of time,,
+avgex,External average inventory per unit of time,,
+imax2,Maximum Inventory level,,
+usage,Percent usage of external warehouse,,
+aic2,Average inventory cost per unit of time,,

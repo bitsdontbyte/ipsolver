@@ -1,0 +1,165 @@
+<!DOCTYPE html><html><head lang="en"><title>Inventory Problems Solver</title><meta charset="UTF-8"><base href="./"><meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, IE=edge"><link rel="manifest" href="manifest.json"><link href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css" rel="stylesheet" type="text/css"><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"><style>.overlay {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+   background: #26425a;
+   /* background for index page ahmad*/
+   /*background: #26425a*/
+    z-index: 100000;
+}
+.splash {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -195px 0 0 -315px;
+    width: 630px;
+    height: 390px;
+    opacity: 0;
+}
+
+.splash svg {
+    padding-top: 12px;
+}
+
+.ct-chart .ct-label.ct-vertical,
+.ct-chart .ct-label.ct-horizontal {
+    color: rgba(255, 255, 255, 0.5);
+} 
+.ct-chart .ct-grid.ct-vertical,
+.ct-chart .ct-grid.ct-horizontal {
+    stroke: rgba(255, 255, 255, 0.1);
+    stroke-dasharray: 2px;
+    shape-rendering: crispEdges;
+}
+
+.ct-chart .ct-series.ct-series-a .ct-line {
+    stroke: #4ECDC4;
+    stroke-width: 7px;
+    stroke-linecap: round;
+}
+
+.ct-chart .ct-series.ct-series-b .ct-line {
+    stroke: #C7F464;
+    stroke-width: 2px;
+    stroke-dasharray: 5px 2px;
+}
+
+.ct-chart .ct-series.ct-series-c .ct-line {
+    stroke: black;
+    stroke-width: 4px;
+    stroke-linecap: round;
+}
+
+.ct-chart .ct-series.ct-series-d .ct-line {
+    stroke: #FF6B6B;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-dasharray: 30px 5px;
+}
+
+@keyframes width-pulse {
+    0% {
+        stroke-width: 3px
+    }
+    50% {
+        stroke-width: 12px;
+    }
+    100% {
+        stroke-width: 3px;
+    }
+}
+@keyframes dashoffset-seven {
+    0% {
+        stroke-dashoffset: 7px;
+    }
+    100% {
+        stroke-dashoffset: 0px;
+    }
+}
+@keyframes dasharray-craziness {
+    0% {
+        stroke-dasharray: 7px 2px;
+    }
+    80% {
+        stroke-dasharray: 7px 100px;
+    }
+    100% {
+        stroke-dasharray: 7px 2px;
+    }
+}
+.ct-chart .ct-label.ct-vertical,
+.ct-chart .ct-label.ct-horizontal {
+    color: rgba(255, 255, 255, 0.5);
+}
+.ct-chart .ct-grid.ct-vertical,
+.ct-chart .ct-grid.ct-horizontal {
+    stroke: rgba(255, 255, 255, 0.1);
+    stroke-dasharray: 2px;
+    shape-rendering: crispEdges;
+}
+.ct-chart .ct-series.ct-series-a .ct-line {
+    stroke: #4ECDC4;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    animation: width-pulse 2s infinite;
+}
+.ct-chart .ct-series.ct-series-b .ct-line {
+    stroke: #C7F464;
+    stroke-width: 2px;
+    stroke-dasharray: 5px 2px;
+    animation: dashoffset-seven 200ms infinite linear;
+}
+.ct-chart .ct-series.ct-series-d .ct-line {
+    stroke: #FF6B6B;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-dasharray: 30px 5px;
+    animation: dasharray-craziness 10s infinite linear;
+}
+.div-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -310px 0 0 -300px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #86e2d5;
+    text-align: center;
+    opacity: 0;
+}
+.div-footer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 205px 0 0 -205px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #86e2d5;
+    text-align: center;
+    opacity: 0;
+}
+.splash-caption {
+    font-size: 36px;
+    display: block;
+    align: left;
+}               
+.splash-ver-label {
+    font-size: 28px;
+    margin-top: 10px;
+    color: #ecec57;
+}               
+.splash-ver-number {
+    font-size: 28px;
+    margin-top: 10px;
+    color: #86e2d5;
+}               
+.splash-footer {
+    font-size: 24px;
+    display: block;
+}               
+.splash-copyright {
+    font-size: 16px;
+    display: block;
+}               </style><script src="solvers/bridge.min.js?v=1.0.15"></script><script src="solvers/InventorySolverJS.min.js?v=1.0.15"></script><link href="vendor.bundle.css?v=1.0.15" rel="stylesheet"><link href="inventory.bundle.css?v=1.0.15" rel="stylesheet"></head><body><inventory><div class="overlay"><div class="div-header"><span class="splash-caption"><!--img.image(src='/' + "images/aus11.png")-->Educational Software Package                       <div></div><span class="splash-ver-label">Inventory Problems Solver</span><br><span class="splash-ver-label">IPS &nbsp</span><span class="splash-ver-number">3.0</span></span></div><div class="splash ct-chart ct-golden-section"><svg class="ct-chart-line" xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" style="width: 100%; height: 100%;"><g class="ct-grids"><line class="ct-grid ct-horizontal" x1="50" x2="50" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="87.2" x2="87.2" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="124.4" x2="124.4" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="161.60000000000002" x2="161.60000000000002" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="198.8" x2="198.8" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="236" x2="236" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="273.20000000000005" x2="273.20000000000005" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="310.40000000000003" x2="310.40000000000003" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="347.6" x2="347.6" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="384.8" x2="384.8" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="422" x2="422" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="459.20000000000005" x2="459.20000000000005" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="496.40000000000003" x2="496.40000000000003" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="533.6" x2="533.6" y1="15" y2="350.03125"></line><line class="ct-grid ct-horizontal" x1="570.8000000000001" x2="570.8000000000001" y1="15" y2="350.03125"></line><line class="ct-grid ct-vertical" y1="350.03125" y2="350.03125" x1="50" x2="608"></line><line class="ct-grid ct-vertical" y1="294.1927083333333" y2="294.1927083333333" x1="50" x2="608"></line><line class="ct-grid ct-vertical" y1="238.35416666666669" y2="238.35416666666669" x1="50" x2="608"></line><line class="ct-grid ct-vertical" y1="182.515625" y2="182.515625" x1="50" x2="608"></line><line class="ct-grid ct-vertical" y1="126.67708333333334" y2="126.67708333333334" x1="50" x2="608"></line><line class="ct-grid ct-vertical" y1="70.83854166666669" y2="70.83854166666669" x1="50" x2="608"></line><line class="ct-grid ct-vertical" y1="15" y2="15" x1="50" x2="608"></line></g><g><g class="ct-series ct-series-a"><path class="ct-line" d="M 50 75 L 127 350 L 125 75 L 240 350 L 240 75 L 350 350 L 350 75 L 462 350 L 462 75 L 580 350"></path></g><g class="ct-series ct-series-b"><path class="ct-line" d="M 50 75 L 127 350 L 125 75 L 240 350 L 240 75 L 350 350 L 350 75 L 462 350 L 462 75 L 580 350"></path></g><g class="ct-series ct-series-c"><path class="ct-line" id="path" d="M 50 75 L 127 350 L 125 75 L 240 350 L 240 75 L 350 350 L 350 75 L 462 350 L 462 75 L 580 350"></path></g></g><g class="ct-labels"><foreignobject style="overflow: visible;" x="50" y="355.03125" width="37.2" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">1</span></foreignobject><foreignobject style="overflow: visible;" x="87.2" y="355.03125" width="37.2" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">2</span></foreignobject><foreignobject style="overflow: visible;" x="124.4" y="355.03125" width="37.2" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">3</span></foreignobject><foreignobject style="overflow: visible;" x="161.60000000000002" y="355.03125" width="37.2" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">4</span></foreignobject><foreignobject style="overflow: visible;" x="198.8" y="355.03125" width="37.19999999999999" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">5</span></foreignobject><foreignobject style="overflow: visible;" x="236" y="355.03125" width="37.20000000000002" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">6</span></foreignobject><foreignobject style="overflow: visible;" x="273.20000000000005" y="355.03125" width="37.20000000000002" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">7</span></foreignobject><foreignobject style="overflow: visible;" x="310.40000000000003" y="355.03125" width="37.19999999999999" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">8</span></foreignobject><foreignobject style="overflow: visible;" x="347.6" y="355.03125" width="37.19999999999999" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">9</span></foreignobject><foreignobject style="overflow: visible;" x="384.8" y="355.03125" width="37.19999999999999" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">10</span></foreignobject><foreignobject style="overflow: visible;" x="422" y="355.03125" width="37.200000000000045" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">11</span></foreignobject><foreignobject style="overflow: visible;" x="459.20000000000005" y="355.03125" width="37.19999999999999" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">12</span></foreignobject><foreignobject style="overflow: visible;" x="496.40000000000003" y="355.03125" width="37.19999999999999" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">13</span></foreignobject><foreignobject style="overflow: visible;" x="533.6" y="355.03125" width="37.200000000000045" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">14</span></foreignobject><foreignobject style="overflow: visible;" x="570.8000000000001" y="355.03125" width="37.19999999999993" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 37px; height: 20px;">15</span></foreignobject><foreignobject style="overflow: visible;" y="294.1927083333333" x="10" height="55.838541666666664" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 56px; width: 30px;">0</span></foreignobject><foreignobject style="overflow: visible;" y="238.35416666666666" x="10" height="55.838541666666664" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 56px; width: 30px;">1</span></foreignobject><foreignobject style="overflow: visible;" y="182.515625" x="10" height="55.83854166666667" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 56px; width: 30px;">2</span></foreignobject><foreignobject style="overflow: visible;" y="126.67708333333334" x="10" height="55.83854166666666" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 56px; width: 30px;">3</span></foreignobject><foreignobject style="overflow: visible;" y="70.83854166666669" x="10" height="55.83854166666666" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 56px; width: 30px;">4</span></foreignobject><foreignobject style="overflow: visible;" y="15" x="10" height="55.838541666666686" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 56px; width: 30px;">5</span></foreignobject><foreignobject style="overflow: visible;" y="-15" x="10" height="30" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 30px; width: 30px;">6</span></foreignobject></g></svg><div class="div-footer"><span class="splash-footer">An Educational Computer Software</span><span class="splash-footer">Package for Inventory Control Problems</span><br><span class="splash-ver-label">Ahmad Farhat</span><span class="splash-copyright">Copyright &copy 2018 &nbsp;&nbsp; </span></div></div></div></inventory><script type="text/javascript" src="vendor.bundle.js?v=1.0.15"></script><script type="text/javascript" src="inventory.bundle.js?v=1.0.15"></script></body></html>

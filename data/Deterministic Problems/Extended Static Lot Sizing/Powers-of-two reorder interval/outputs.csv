@@ -1,0 +1,11 @@
+name,caption,is_dynamic
+m0,"Exponent,  m",
+sumh,Multiplicity coefficient,
+T,Reorder Interval,
+q,Economic lot size,
+b,Maximum backorder level,
+aic,Average inventory cost per unit of time,
+ttu,Unrestricted Reorder Interval,
+q0,Unrestricted Economic lot size,
+sum,Unrestricted  Cost,
+dev,Percent cost increase,

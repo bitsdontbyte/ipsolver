@@ -1,0 +1,14 @@
+name,caption,is_dynamic,type
+type,Discount type,,String
+q,Economic lot size,,
+b,Maximum backorder level,,
+nset,No. of Orders per unit of time,,
+T,Cycle time,,
+f,Service level (%),,
+TR,Inventory Turnover rate,,
+r,Reorder point (net inventory),,
+tac,Total cost per unit of time,,
+qq,Lot size,1,
+feas,Feasibility,1,String
+bac,Max backorder,1,
+kk,Total cost,1,

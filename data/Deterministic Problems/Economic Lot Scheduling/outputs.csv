@@ -1,0 +1,8 @@
+name,caption,is_dynamic
+clb,Lower bound cost,
+cycle,Common cycle length,
+idle,% idle time,
+ccc,Average inventory cost per unit of time,
+dev,Upper bound cost ration,
+tt,Production Time,1
+bac,Max. Backorder,1

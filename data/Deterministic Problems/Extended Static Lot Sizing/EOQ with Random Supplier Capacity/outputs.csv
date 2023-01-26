@@ -1,0 +1,7 @@
+name,caption,is_dynamic
+q,Optimal Ordering quantity,
+aic,Minimum expected total cost per unit of time,
+q1,Expected quantity received,
+eoq,"Economic Ordering quantity, EOQ",
+aiceoq,Expected total cost of the economic ordering quantity,
+deveoq,Percent cost deviation of the EOQ policy,

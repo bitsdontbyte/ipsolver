@@ -1,0 +1,10 @@
+name,caption,type,editor,is_dynamic,default_value,message,validation_rules
+inivb,Initial inventory (+)/backorder (-),Decimal,Numeric,,0,Initial inventory (backorder) must be nonnegative (nonpositive).,7;31
+endvb,Ending inventory (+)/backorder (-),Decimal,Numeric,,0,Ending inventory (backorder) must be nonnegative (nonpositive).,7;31
+procedure,Lot sizing procedure,String,List,,Optimal|Extended Wagner - Whitin procedure (Zangwill);SM|Extended Silver - Meal procedure;EOQ|Extended Economic Order Quanitity procedure;LFL|Lot-for-Lot procedure;POQ|Extended Periodic Order Quanitity procedure;LUC|Extended Least Unit Cost procedure;PPB|Extended Part Period Balancing procedure,Select a lot sizing procedure from the list,
+dd,Demand rate,Decimal,Numeric,1,,Demand rate must be strictly positive. Use the same time unit as the production rate.,3;4;7
+order,Ordering cost,Decimal,Numeric,1,,Setup/Ordering cost must be strictly positive.,1;3;7
+cc,Unit cost,Decimal,Numeric,1,,Unit procurement cost must be strictly positive.,1;3;7
+hh,Holding cost,Decimal,Numeric,1,,Holding cost rate must be expressed as a percentage.,1;3;7
+pipi,Backorder cost,Decimal,Numeric,1,1E+30,Leave the default value in case backorders are disallowed,1;3;5;7
+n,Number of products n <=50,Decimal,Numeric,,,,1;2;7;32

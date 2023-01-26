@@ -1,0 +1,12 @@
+{
+    "api": {
+        "url": "http://localhost/api/",
+        "project": "Default",
+        "auth": {
+            "key": "A452862C26AA03246F0FCB67B387633E"
+        }
+    },
+    "app": {
+        "dataUrl": "data"
+    }
+}

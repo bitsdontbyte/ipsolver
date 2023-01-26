@@ -1,0 +1,8 @@
+name,caption,type,is_dynamic
+procedure,Lot sizing procedure,String,
+nset,Number of Orders,,
+tac,Total system cost,,
+dev,% cost deviation from minimum,,
+qq,Lot size,,1
+invt,Ending Invt.,,1
+bac,Ending Back.,,1

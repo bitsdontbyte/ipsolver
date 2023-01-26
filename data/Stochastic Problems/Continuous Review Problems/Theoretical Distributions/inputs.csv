@@ -1,0 +1,11 @@
+name,caption,type,editor,is_dynamic,default_value,message,validation_rules,hidden
+D,Average demand per unit of time,Decimal,Numeric,,,The average demand per unit of time must be positive.,1;3;7,
+S,Fixed ordering/ setup cost,Decimal,Numeric,,,The fixed ordering/setup cost must be positive.,1;3;7,
+h,Unit holding cost per unit of time,Decimal,Numeric,,,The unit holding cost per unit of time must be positive.,1;3;7,
+Pi,Backorder cost per unit short,Decimal,Numeric,,,The backorder cost per unit short must be positive.,1;3;7,
+Pi0,Unit marginal profit,Decimal,Numeric,,0,The unit marginal profit must be non-negative.,3;4;7,
+beta,Fraction of shortages backordered,Decimal,Numeric,,1,"The fraction of shortage backordered must be in the interval (0, 1).",3;7;19,
+value,Demand distribution,String,List,,Poisson;Exponential;Continuous Uniform;Normal;Triangular;Discrete Uniform;Erlang;Gamma;Weibull;Lognormal;Negative Binomial;Laplace,Select a demand distribution from the list,,
+A,,Decimal,Numeric,,,,,1
+b,,Decimal,Numeric,,,,,1
+m,,Decimal,Numeric,,,,,1

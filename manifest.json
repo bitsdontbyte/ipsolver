@@ -1,0 +1,30 @@
+{
+    "name": "Inventory Problems Solver",
+    "short_name": "Inventory Solver",
+    "icons": [
+      {
+        "src": "images/ips_icon_64.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "images/ips_icon_128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      },
+      {
+        "src": "images/ips_icon_144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+      },
+      {
+        "src": "images/ips_icon_192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "https://inf.io/ips/",
+    "display": "standalone",
+    "background_color": "#26425a",
+    "theme_color": "#26425a"
+  }

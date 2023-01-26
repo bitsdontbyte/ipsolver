@@ -1,0 +1,9 @@
+name,caption,is_dynamic
+Pih,Time dependent backorder cost,
+Pi,Time independent backorder cost,
+alfa,Service level (%),
+beta,Backorder delay,
+q,Economic lot size,
+b,Maximum backorder level,
+T,Reorder Interval,
+aic,Average inventory cost per unit of time,

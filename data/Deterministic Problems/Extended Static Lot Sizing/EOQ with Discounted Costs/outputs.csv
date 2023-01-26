@@ -1,0 +1,7 @@
+name,caption,is_dynamic
+T,Optimal reorder interval,
+aic,Uniform annual inventory costs,
+T0,Approximate reorder interval,
+sum,Approximate uniform annual inventory costs,
+dev,Percent cost increase,
+XX,Average annual inventory costs,

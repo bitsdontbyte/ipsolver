@@ -1,0 +1,10 @@
+name,caption,is_dynamic
+clb,Lower bound cost,
+cind,Cost of the independent ordering policy,
+cagg,Cost of the aggregated ordering policy,
+Tagg,Aggregated reorder interval,
+T,Basic cycle time,
+tac,Average inventory cost per unit of time,
+ff,Ordering Frequency,1
+tt,Reorder interval,1
+bac,Max. Backorder,1

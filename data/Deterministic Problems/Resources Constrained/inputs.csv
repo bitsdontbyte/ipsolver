@@ -1,0 +1,12 @@
+name,caption,type,editor,is_dynamic,default_value,message,validation_rules
+ii,Holding cost rate (%),Decimal,Numeric,,,The holding cost rate must be expressed as a percentage,1;3;7
+type,Type of resource constraint(s),String,List,,"Budget|;Turnover ratio|;No.Orders / Setups|;Storage Space|;setup capacity|;Space & Budget|;Space & Turnover|",Select a resource constraint type from the list,
+RHS1,Right-hand-side of constraint 1,Decimal,Numeric,,1E+30,The right-hand side for constraint 1 must be positive,1;3;5;7
+RHS2,Right-hand-side of constraint 2,Decimal,Numeric,,1E+30,Leave the default value in case of a single constraint problem,1;3;5;7
+dd,Demand rate,Decimal,Numeric,1,,Demand rate must be strictly positive. Use the same time unit as the production rate.,1;3;7;13
+pp,Production rate,Decimal,Numeric,1,1E+30,Leave the default value in case of infinite production. Use the time unit of the demand rate,1;3;5;7
+order,Ordering/Setup,Decimal,Numeric,1,,The setup/ordering cost must be strictly positive,1;3;7
+cc,Unit cost,Decimal,Numeric,1,,Unit procurement cost must be strictly positive.,1;3;7
+pipi,Backorder cost,Decimal,Numeric,1,1E+30,Leave the default value in case backorders are disallowed,1;3;5;7
+coef1,Coef Constraint 1,Decimal,Numeric,1,,The coefficients for constraint 1 must be strictly poistive,3;7;14
+n,Number of products n <=50,Decimal,Numeric,,,,1;2;7;32

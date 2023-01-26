@@ -1,0 +1,9 @@
+name,caption,is_dynamic,type
+type,Type of resource constraint(s),,String
+lamda1,Dual price for constraint 1,,
+lamda2,Dual price for constraint 2,,
+aic,Average inventory cost,,
+tac,Total cost per unit of time,,
+qq,Lot size,1,
+bac,Max. backorder,1,
+tt,Cycle length,1,

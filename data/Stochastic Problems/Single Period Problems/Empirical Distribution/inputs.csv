@@ -1,0 +1,10 @@
+name,caption,type,editor,is_dynamic,default_value,message,validation_rules
+C,Unit procurement cost,Decimal,Numeric,,,The unit procurement cost must be positive.,1;3;7;22
+h,Inventory holding cost,Decimal,Numeric,,,The holding cost can be either non-negative or non-positive (salvage value).,3;7
+Pi,Unit shortage cost,Decimal,Numeric,,,The unit shortage cost must be non-negative.,3;4;7
+p,Unit selling price,Decimal,Numeric,,0,Leave the default value in case of a cost minimization problem.,3;7
+i0,On - hand inventory,Decimal,Numeric,,,The on-hand inventory must be non-negative.,3;4;7
+S,Ordering / Setup cost,Decimal,Numeric,,,Leave the default value in case of a ZERO ordering/Setup cost.,3;7
+UD,Demand,Decimal,Numeric,1,,The demand values must be integer values entered in ascending order.,3;7;20
+UP,Probability,Decimal,Numeric,1,,The probability values must sum to one.,3;7;21
+n,Number of products n <=50,Decimal,Numeric,,,,1;2;7;32

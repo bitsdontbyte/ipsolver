@@ -1,0 +1,8 @@
+name,caption,type,editor,is_dynamic,default_value,message,validation_rules
+D,Demand Rate,Decimal,Numeric,,,Demand rate must be strictly positive. Use the same time unit as the production rate.,1;3;7
+p,Production rate,Decimal,Numeric,,,Production rate must be must be larger than demand rate.,1;3;7;15
+A,Ordering/Setup cost,Decimal,Numeric,,,Ordering/Setup cost must be strictly positive.,1;3;7
+h,Unit holding cost,Decimal,Numeric,,,Unit holding cost per unit of time must be strictly positive.,1;3;7
+r,Cost of defective unites,Decimal,Numeric,,,Cost of defective units must be strictly positive.,1;3;7
+alpha,Proportion of defective units,Decimal,Numeric,,,Proportion of defective units must be a positive number smaller than one.,1;3;7;16
+mu,Mean of the Exponential distribution,Decimal,Numeric,,,Mean of the exponential distribution must be strictly positive.,1;3;7

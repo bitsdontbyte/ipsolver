@@ -1,0 +1,20 @@
+name,caption,is_dynamic
+q,"Economic lot size, Q*",
+b,"Maximum backorder level, S*",
+imax,Maximum inventory level,
+n,No. of Orders/Setups per unit of time,
+T,Cycle time,
+tp,Production time,
+f,Service level (%),
+TR,Inventory Turnover rate,
+r,Reorder point (net inventory),
+orc,Ordering/Setup cost per unit of time,
+hlc,Holding cost per unit of time,
+boc,Shortage cost per unit of time,
+aic,Average inventory cost per unit of time,
+puc,Purchasing/Production cost,
+tac,Total system cost per unit of time,
+sum1,Total system cost per unit of time for ULS,
+alfa1,a:           Q = a Q*,1
+beta1,b:          S = b S*,1
+dev1,% Increase in Cost,1

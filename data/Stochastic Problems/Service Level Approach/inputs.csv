@@ -1,0 +1,10 @@
+name,caption,type,editor,is_dynamic,default_value,message,validation_rules
+S,Fixed ordering/setup cost,Decimal,Numeric,,,The fixed ordering/setup cost must be positive.,1;3;7
+h,Unit holding cost per unit of time,Decimal,Numeric,,,The unit holding cost per unit of time must be positive.,1;3;7
+A,Mean of the demand per unit of time,Decimal,Numeric,,,The mean of the demand per unit of time must be positive.,1;3;7
+b,Std. Dev. of the demand per unit of time,Decimal,Numeric,,,The standard deviation of the demand per unit of time must be positive.,1;3;7
+AL,Mean of the Lead-time,Decimal,Numeric,,,The mean of the lead time must be positive.,1;3;7
+bL,Std. dev. of the Lead-time,Decimal,Numeric,,,The standard deviation of the lead time must be nonnegative,3;4;7
+CSL,Cycle service level,Decimal,Numeric,,,"The cycle service level must be in the interval(0, 1).",3;7;19
+FR,Fill rate,Decimal,Numeric,,,"The fill rate must be in the interval (0, 1).",3;7;19
+

@@ -1,0 +1,10 @@
+name,caption,is_dynamic
+T,Optimal reorder interval,
+q,Optimal lot size,
+avginvt,Average inventory per unit of time,
+XX,Number of deteriorated units per unit of time,
+aic,Average inventory costs per unit of time,
+q0,Approximate lot size,
+T0,Approximate reorder interval,
+sum,Cost of the approximate lot size,
+dev,Percent cost increase,

@@ -1,0 +1,32 @@
+group,subgroup,name,caption
+Deterministic Problems,,Static Lot Sizing,
+Deterministic Problems,Extended Static Lot Sizing,Powers-of-two reorder interval,
+Deterministic Problems,Extended Static Lot Sizing,Implied Shortage Costs,
+Deterministic Problems,Extended Static Lot Sizing,Static Lot Sizing Problem with two warehouses,
+Deterministic Problems,Extended Static Lot Sizing,EOQ for Deteriorating Items,
+Deterministic Problems,Extended Static Lot Sizing,EOQ with Discounted Costs,
+Deterministic Problems,Extended Static Lot Sizing,EPQ with Imperfect Processes,
+Deterministic Problems,Extended Static Lot Sizing,EPQ with Machine Breakdowns,
+Deterministic Problems,Extended Static Lot Sizing,EOQ with Random Supplier Capacity,
+Deterministic Problems,,Quantity Discount,
+Deterministic Problems,,Dynamic Lot Sizing,
+Deterministic Problems,,Economic Lot Scheduling,
+Deterministic Problems,,Joint Replenishment,
+Deterministic Problems,,Resources Constrained,
+Stochastic Problems,Continuous Review Problems,Theoretical Distributions,Continuous Review : Theoretical Distributions
+Stochastic Problems,Continuous Review Problems,Empirical Distribution,Continuous Review : Empirical Distribution
+Stochastic Problems,Periodic Review Problems,Theoretical Distributions,Periodic Review : Theoretical Distributions
+Stochastic Problems,Periodic Review Problems,Empirical Distribution,Periodic Review : Empirical Distribution
+Stochastic Problems,Single Period Problems,Theoretical Distributions,Single Period : Theoretical Distributions
+Stochastic Problems,Single Period Problems,Empirical Distribution,Single Period : Empirical Distribution
+Stochastic Problems,,Service Level Approach,
+
+
+
+
+
+
+
+
+
+

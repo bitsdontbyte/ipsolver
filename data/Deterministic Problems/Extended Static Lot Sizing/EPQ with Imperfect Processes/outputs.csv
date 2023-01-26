@@ -1,0 +1,10 @@
+name,caption,is_dynamic
+T,Optimal production run,
+T0,Optimal production cycle,
+aic,Minimum expected total cost per unit of time,
+Ta,Approximate production run,
+aica,Cost of the approximate production run,
+deva,Percent cost deviation of the approximate production run,
+TEPQ,Production run of the EPQ Model,
+aicepq,Cost of the production run of the EPQ Model,
+devepq,Percent cost deviation of the EPQ's production run,

@@ -1,0 +1,11 @@
+name,caption,is_dynamic
+q1,Optimal production quantity Q1,
+q2,Optimal production quantity Q2,
+aic,Minimum Expected total cost per unit of time,
+q1a,Approximate production quantity Q1a,
+q2a,Approximate production quantity Q2a,
+aica,Cost of the approximate production policy,
+deva,Percent cost deviation of the approximate production policy,
+epq,Production quantity of the EPQ Model,
+aicepq,Cost of the EPQ production policy,
+devepq,Percent cost deviation of the EPQ's production policy,

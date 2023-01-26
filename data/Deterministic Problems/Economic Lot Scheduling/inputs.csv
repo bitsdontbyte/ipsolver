@@ -1,0 +1,8 @@
+name,caption,type,editor,is_dynamic,default_value,message,validation_rules
+n,Number of products n <=50,Decimal,Numeric,,,,1;2;7;32
+dd,Demand rate,Decimal,Numeric,1,,Demand rate must be strictly positive. Use the same time unit as the production rate.,3;4;7
+pp,Production rate,Decimal,Numeric,1,,The production rate must be strictly positive.,1;3;7
+order,Setup cost,Decimal,Numeric,1,,The setup cost must be strictly positive.,1;3;7
+hh,Holding cost,Decimal,Numeric,1,,The holding cost must be strictly positive.,1;3;7
+pipi,Backorder cost,Decimal,Numeric,1,1E+30,Leave the default value in case backorders are disallowed,1;3;5;7
+setup,Setup Time,Decimal,Numeric,1,,Setup Time must be nonnegative,3;4;7
